@@ -2,7 +2,6 @@ package com.cardtana.equinox;
 
 import net.fabricmc.api.ModInitializer;
 
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,7 +20,10 @@ public class Equinox implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Equinox has loaded");
-		ModBlocks.init(); // call our dummy
-		LOGGER.info("Equinox has loaded its blocks");
+
+		ModBlocks.init(); // call our dummies
+		ModItems.init();
+
+		LOGGER.info("Equinox has loaded its blocks and items");
 	}
 }

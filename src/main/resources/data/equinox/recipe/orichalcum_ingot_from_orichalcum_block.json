@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "orichalcum_ingot",
+    "ingredients": [
+        "equinox:orichalcum_block"
+    ],
+    "result": {
+        "count": 9,
+        "id": "equinox:orichalcum_ingot"
+    }
+}

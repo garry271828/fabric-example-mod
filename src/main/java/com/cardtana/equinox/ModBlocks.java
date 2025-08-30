@@ -22,8 +22,8 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block ORICHALCUM_BLOCK = register(
 		"orichalcum_block",
-		Block::new,
-		AbstractBlock.Settings.copy(Blocks.GOLD_BLOCK),
+		Block::new, // replace with your own block's constructor for custom behaviour
+		AbstractBlock.Settings.copy(Blocks.GOLD_BLOCK), // copy the profile: e.g. sounds, noteblock instrument, hardness, tools, etc
 		true
     );
     

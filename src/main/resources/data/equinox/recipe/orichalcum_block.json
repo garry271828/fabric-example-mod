@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "equinox:orichalcum_ingot"
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "equinox:orichalcum_block"
+    }
+}
