@@ -2,11 +2,12 @@ package com.cardtana.equinox;
 
 import net.fabricmc.api.ModInitializer;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Equinox implements ModInitializer {
-	public static final String MOD_ID = "modid";
+	public static final String MOD_ID = "equinox";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +20,8 @@ public class Equinox implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Equinox has loaded");
+		ModBlocks.init(); // call our dummy
+		LOGGER.info("Equinox has loaded its blocks");
 	}
 }
