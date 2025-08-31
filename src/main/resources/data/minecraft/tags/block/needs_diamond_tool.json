@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "equinox:orichalcum_block",
         "equinox:lucenite_block"
     ]
 }

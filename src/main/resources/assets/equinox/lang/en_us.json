@@ -1,5 +1,8 @@
 {
     "block.equinox.orichalcum_block": "Block of Orichalcum",
     "item.equinox.orichalcum_block": "Block of Orichalcum",
-    "item.equinox.orichalcum_ingot": "Orichalcum Ingot"
+    "item.equinox.orichalcum_ingot": "Orichalcum Ingot",
+    "block.equinox.lucenite_block": "Block of Lucenite",
+    "item.equinox.lucenite_block": "Block of Lucenite",
+    "item.equinox.lucenite_ingot": "Lucenite Ingot"
 }

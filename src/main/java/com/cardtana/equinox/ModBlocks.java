@@ -9,6 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -24,6 +25,13 @@ public class ModBlocks {
 		"orichalcum_block",
 		Block::new, // replace with your own block's constructor for custom behaviour
 		AbstractBlock.Settings.copy(Blocks.GOLD_BLOCK), // copy the profile: e.g. sounds, noteblock instrument, hardness, tools, etc
+		true
+    );
+
+    public static final Block LUCENITE_BLOCK = register(
+		"lucenite_block",
+		Block::new, // replace with your own block's constructor for custom behaviour
+		AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK), // copy the profile: e.g. sounds, noteblock instrument, hardness, tools, etc
 		true
     );
     

@@ -20,6 +20,12 @@ public class ModItems {
         new Item.Settings() // no settings
     );
 
+    public static final Item LUCENITE_INGOT = register(
+		"lucenite_ingot",
+		Item::new, // own item's constructor for custom behaviour
+        new Item.Settings() // no settings
+    );
+
 	public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
 		// Create the item key.
 		RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Equinox.MOD_ID, name));

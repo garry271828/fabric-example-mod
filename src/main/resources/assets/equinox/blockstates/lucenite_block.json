@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "equinox:block/lucenite_block"
+        }
+    }
+}
